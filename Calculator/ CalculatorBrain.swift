@@ -43,6 +43,8 @@ class CalculatorBrain
         knownOps["√"] = Op.UnaryOperation("√", sqrt)
     }
     
+
+//m2 i01
     private func evaluate(ops: [Op]) ->(result: Double?, remainingOps: [Op]) {
         if !ops.isEmpty {
             var remainingOps = ops
