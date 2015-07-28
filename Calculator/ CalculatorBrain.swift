@@ -31,7 +31,6 @@ class CalculatorBrain
     }
     private var opStack = [Op]()
     private var knownOps = [String: Op]()
-    //master1 i01
     
     init() {
         func learnOp(op: Op){
